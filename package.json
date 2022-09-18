@@ -1,0 +1,23 @@
+{
+  "name": "responsebotislamic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^1.1.0",
+    "@types/moment-hijri": "^2.1.0",
+    "@types/node": "^18.7.18",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.2",
+    "hijri-date": "^0.2.2",
+    "moment": "^2.29.4",
+    "moment-hijri": "^2.1.2",
+    "node": "^18.9.0"
+  }
+}
