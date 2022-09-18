@@ -42,7 +42,7 @@ c.on("messageCreate", (msg: Message) => {
       //@ts-ignore
       msg.channel?.send({
         content:
-          pairs[highest[0]] + "\n\n Similarity: " + highest[1] * 100 + "%",
+          pairs[highest[0]],
       });
       return;
     }
